@@ -760,7 +760,7 @@ class FetchLatestVersionTest(FetcherTest):
 
     test_wget_uris = {
         # packages with versions inside directory name
-        ("util-linux", "http://kernel.org/pub/linux/utils/util-linux/v2.23/util-linux-2.24.2.tar.bz2", "", "")
+        ("util-linux", "http://kernel.org/pub/linux/utils/util-linux/v2.24/util-linux-2.24.2.tar.bz2", "", "")
             : "2.24.2",
         ("enchant", "http://www.abisource.com/downloads/enchant/1.6.0/enchant-1.6.0.tar.gz", "", "")
             : "1.6.0",
